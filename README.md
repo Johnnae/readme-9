@@ -30,7 +30,7 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ``` 
 ### Links 
-https://github.com/Johnnae/11-notes-.git
+https://github.com/Johnnae/readme-9.git
 #### Contributors  
 
 * Classwork 
