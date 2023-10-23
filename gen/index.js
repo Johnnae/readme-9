@@ -14,6 +14,16 @@ const questions = [
         type: 'input',
         name: 'email',
         message: 'What is your email address?'
+      }, 
+      {
+        type: 'input',
+        name: 'User Story',
+        message: 'What is your User Story?'
+      }, 
+      {
+        type: 'input',
+        name: 'Link',
+        message: 'What is your link to finished app?'
       },
 ];
 
