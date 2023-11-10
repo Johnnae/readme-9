@@ -1,4 +1,6 @@
-# Johnna@github,
-  Johnnae ,
-  I want to create a readme,
-  readme@git.com
+# Read me generator 
+
+## Description 
+Used to generate a readme for Apps 
+## App
+![read me gif](./Readme.gif)

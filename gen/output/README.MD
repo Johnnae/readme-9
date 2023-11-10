@@ -1,39 +1,37 @@
-# readme,
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+# Readme
+  
 
   ## Description
-  a readme
+  This will generate a readme file for projects
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
+  
   * [Contributions](#contributions)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation
 
-  nodjs
+  Update needed files
 
   ## Usage
 
-  enter
+  Node index.js
 
-  ## License
-    
-    This project is licensed under MIT license.
+  
 
   ## Contributions 
 
-  reading
+  Reading
 
   ## Tests
 
-  nun
+  You must enter node index.js then answer questions
 
   ## Questions
 
-  If you have any questions, please contact me at johnnae@gmail. 
-  My GitHub profile can be found at [johnnae](https://github.com/johnnae).
+  If you have any questions, please contact me at Johnnae@gmail.com. 
+  My GitHub profile can be found at [Johnnae](https://github.com/Johnnae).
  
