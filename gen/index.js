@@ -5,6 +5,42 @@ const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
 // array of questions for user input
 const questions = [ 
+  {
+    type: 'input',
+    name: 'title',
+    message: 'What is the title of your project?'
+  },
+  {
+    type: 'input',
+    name: 'description',
+    message: 'Enter a brief description of your project.'
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'what are the steps required to install your project?'
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Provide instructions and examples for use.'
+  },
+  {
+    type: 'list',
+    name: 'license',
+    message: 'What license would you like to use?',
+    choices: ['MIT','Apache','GPL','BSD','ISC','GNU','None']
+  },
+  {
+    type: 'input',
+    name: 'contribution',
+    message: 'What are the contribution guidelines?'
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'What are the test instructions?'
+  },
     {
         type: 'input',
         name: 'github',
@@ -15,16 +51,8 @@ const questions = [
         name: 'email',
         message: 'What is your email address?'
       }, 
-      {
-        type: 'input',
-        name: 'User Story',
-        message: 'What is your User Story?'
-      }, 
-      {
-        type: 'input',
-        name: 'Link',
-        message: 'What is your link to finished app?'
-      },
+      
+      
 ];
 
 // function to write README file
@@ -36,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() { 
     inquirer.prompt(questions).then(res =>{
         console.log("make read me")
-        writeToFile("README.md",generateMarkdown({...res}))
+        writeToFile("./output/README.md",generateMarkdown({...res}))
     })
 }
 
